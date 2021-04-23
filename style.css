@@ -158,6 +158,10 @@ main {
   margin-top: 25px;
 }
 
+.technology2 {
+  margin-top: 10px;
+}
+
 .logos {
   background: linear-gradient(
     to right bottom,
@@ -166,8 +170,8 @@ main {
   );
   padding: 20px;
   border-radius: 1rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .logos {
@@ -185,8 +189,7 @@ main {
   padding: 10px;
   border-radius: 0.8rem;
   margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 10px;
   transition-duration: 0.2s;
 }
 
@@ -199,6 +202,14 @@ main {
   text-decoration: none;
   color: #2de2e6;
   transition-duration: 0.2s;
+}
+
+.buttonContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /***Project Containers***/
@@ -293,14 +304,12 @@ main {
 /** Contact Me **/
 
 .contactMe {
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  border: 1px solid #2de2e6;
   padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
   border-radius: 0.8rem;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -315,8 +324,30 @@ main {
 
 .contactMe a {
   text-decoration: none;
-  color: #261447;
+  color: #2de2e6;
   transition-duration: 0.2s;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.contact h1 {
+  color: #2de2e6;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  color: #2de2e6;
+  margin-top: 15px;
+  width: 60%;
+  text-align: center;
 }
 
 /** Mobile Set Up **/
