@@ -359,6 +359,10 @@ main {
     width: 16em;
     height: 16em;
   }
+
+  .projectsTab {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1284px) {
@@ -428,10 +432,30 @@ main {
   #projectImage {
     height: 12rem;
   }
+
+  .projectsTab h1 {
+    font-size: 1.5rem;
+  }
+
+  .projectsTab p {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .dashboard2 p {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
 
 @media screen and (max-width: 430px) {
   #projectImage {
     height: 10rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projectsTab h1 {
+    font-size: 1.3rem;
   }
 }
