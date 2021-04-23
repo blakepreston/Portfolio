@@ -25,6 +25,11 @@ p {
   opacity: 0.8;
 }
 
+small {
+  color: #2de2e6;
+  font-weight: 700;
+}
+
 main {
   min-height: 100vh;
   background: linear-gradient(to right top, #261447, #0d0221);
