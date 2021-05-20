@@ -246,6 +246,23 @@ main {
   margin-top: 25vh;
 }
 
+.fourthContainer {
+  background: white;
+  min-height: 80vh;
+  width: 80%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 2rem;
+  z-index: 5;
+  backdrop-filter: blur(1rem);
+  display: flex;
+  margin-top: 25vh;
+  justify-content: center;
+}
+
 .projectsTab {
   width: 40%;
   background: linear-gradient(
@@ -364,6 +381,12 @@ main {
     justify-content: center;
     align-items: center;
   }
+
+  .fourthContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -460,6 +483,10 @@ main {
   }
 
   .thirdContainer {
+    width: 95%;
+  }
+
+  .fourthContainer {
     width: 95%;
   }
 }
